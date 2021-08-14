@@ -1,0 +1,31 @@
+
+h1 {
+    margin: 130px 420px 10px;
+}
+
+table {
+    width: 480px;
+    height: 480px;
+    border-spacing: 0px;
+    margin: auto;
+}
+
+.row{
+    border: 1px solid black;
+}
+.square {
+    width: 60px;
+    height: 60px;
+    border: 1px solid black;
+}
+
+.row:nth-child(odd)
+.square:nth-child(even) {
+    background-color: black;
+}
+
+.row:nth-child(even)
+.square:nth-child(odd) {
+    background-color: black;
+}
+
